@@ -16,7 +16,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class TotemOfBanishmentItem extends Item {
 	public TotemOfBanishmentItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE));
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 	}
 
