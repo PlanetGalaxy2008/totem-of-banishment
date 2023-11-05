@@ -34,6 +34,30 @@
           "src/main/resources/assets/totemofbanishment/models/item/totem_of_banishment.json"
         ]
       }
+    },
+    {
+      "name": "TotemOfBanishmentRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_banishment_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/totem_of_banishment.json"
+        ]
+      }
+    },
+    {
+      "name": "RavagerDropsArmorTrim",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ravager_drops_armor_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ravager.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
