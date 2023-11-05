@@ -1,0 +1,12 @@
+{
+  "banish": {
+    "category": "ambient",
+    "subtitle": "subtitles.banish",
+    "sounds": [
+      {
+        "name": "totemofbanishment:banish",
+        "stream": false
+      }
+    ]
+  }
+}
