@@ -1,0 +1,78 @@
+{
+  "mod_elements": [
+    {
+      "name": "TotemOfBanishmentRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_banishment_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofbanishment/procedures/TotemOfBanishmentRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfBanishment",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_banishment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofbanishment/item/TotemOfBanishmentItem.java",
+          "src/main/resources/assets/totemofbanishment/models/item/totem_of_banishment.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "banish",
+      "files": [
+        "banish"
+      ],
+      "category": "ambient",
+      "subtitle": "banish"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.totemofbanishment.totem_of_banishment": "Totem Of Banishment",
+      "subtitles.banish": "banish"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "totemofbanishment",
+    "modName": "TotemOfBanishment",
+    "version": "1.0.0",
+    "author": "Dunja  Computers, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.mcreator.totemofbanishment",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
