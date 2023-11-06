@@ -50,12 +50,26 @@
     {
       "name": "RavagerDropsArmorTrim",
       "type": "loottable",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ravager_drops_armor_trim",
       "metadata": {
         "files": [
           "src/main/resources/data/minecraft/loot_tables/entities/ravager.json"
+        ]
+      }
+    },
+    {
+      "name": "EndermanAlwaysDropsEnderPearl",
+      "type": "loottable",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_always_drops_ender_pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/enderman.json"
         ]
       }
     }
